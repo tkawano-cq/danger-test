@@ -5,14 +5,18 @@ on: [pull_request]
 jobs:
   danger:
     name: Danger
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     
     steps:
       - uses: actions/checkout@master
-      - name: cache bundle
-        uses: actions/cache@v1
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
         with:
-          path: ~/cache
+            ruby-version: '2.x'
+      - name: cache bundle
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
@@ -26,4 +30,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           bundle exec danger
-
