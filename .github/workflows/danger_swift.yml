@@ -12,11 +12,11 @@ jobs:
       - name: Setup Ruby
         uses: actions/setup-ruby@v1
         with:
-            ruby-version: '2.x'
-          - name: before cache
-      run: |
-        mkdir -p ~/cache
-        ls ~/cache
+          ruby-version: '2.x'
+      - name: before cache
+        run: |
+          mkdir -p ~/cache
+          ls ~/cache
       - name: cache bundle
         uses: actions/cache@v1
         with:
