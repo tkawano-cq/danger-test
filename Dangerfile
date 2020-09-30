@@ -18,10 +18,3 @@ github.dismiss_out_of_range_messages
 # Swiftlint
 swiftlint.config_file = '.swiftlint.yml'
 swiftlint.lint_files inline_mode: true
-
-# Xcode warning
-xcode_summary.inline_mode = true
-xcode_summary.report 'xcodebuild.json'
-
-# Swift compilation time
-xcprofiler.report 'MyApp'
