@@ -13,7 +13,6 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
             ruby-version: '2.x'
-            architecture: 'x64'
       - name: cache bundle
         uses: actions/cache@v1
         with:
