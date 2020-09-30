@@ -24,8 +24,8 @@ swiftlint.config_file = '.swiftlint.yml'
 swiftlint.lint_files inline_mode: true
 
 # Xcode warning
-xcode_warnings.use_xcpretty = true
-xcode_warnings.analyze_file 'build.log'
+xcode_summary.inline_mode = true
+xcode_summary.report 'xcodebuild.json'
 
 # Xcode's code coverage
 xcov.report(
