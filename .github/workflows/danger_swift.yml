@@ -13,17 +13,21 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
             ruby-version: '2.x'
+          - name: before cache
+      run: |
+        mkdir -p ~/cache
+        ls ~/cache
       - name: cache bundle
         uses: actions/cache@v1
         with:
-          path: vender/bundle
+          path: ~/cache
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gem-  
       - name: setup bundle
         run: |
           gem install bundler
-          bundle install --path vendor/bundle
+          bundle install
       - name: Run Danger
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
