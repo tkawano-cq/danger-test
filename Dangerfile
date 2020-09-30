@@ -26,3 +26,14 @@ swiftlint.lint_files inline_mode: true
 # Xcode warning
 xcode_warnings.use_xcpretty = true
 xcode_warnings.analyze_file 'build.log'
+
+# Xcode's code coverage
+xcov.report(
+   scheme: 'EasyPeasy',
+   workspace: 'Example/EasyPeasy.xcworkspace',
+   exclude_targets: 'Demo.app',
+   minimum_coverage_percentage: 90
+)
+
+# Swift compilation time
+xcprofiler.report 'MyApp'
