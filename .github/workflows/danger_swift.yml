@@ -22,9 +22,10 @@ jobs:
       - name: bundle install
         run: |
           gem install bundler
-          bundle install --path vendor/bundle --quiet --jobs 4 --retry 3
+          bundle install
       - name: Run Danger
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: danger.import_dangerfile(github: "tkawano-cq/danger-test", branch: "master")
         run: bundle exec danger
 
