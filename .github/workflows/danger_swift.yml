@@ -17,11 +17,7 @@ jobs:
         uses: actions/cache@v1
         with:
           path: vender/bundle
-          key: ${{ runner.os }}-danger-${{ env.cache-name }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-danger-${{ env.cache-name }}-gems-
-            ${{ runner.os }}-danger-${{ env.cache-name }}-
-            ${{ runner.os }}-danger-
+          key: bundle-${{ hashFiles('**/Gemfile.lock') }}
       - name: setup bundle
         run: |
           gem install bundler
