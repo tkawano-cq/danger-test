@@ -26,6 +26,7 @@ jobs:
       - name: Run Danger
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: danger.import_dangerfile(github: "tkawano-cq/danger-test", branch: "master")
-        run: bundle exec danger
+        run: |
+          danger.import_dangerfile(github: 'tkawano-cq/danger-test', branch: 'master')
+          bundle exec danger
 
