@@ -6,6 +6,5 @@ gem 'danger'
 gem 'danger-swiftlint'
 gem 'danger-xcode_summary'
 gem 'danger-xcprofiler'
-gem 'danger-xcov'
 
 # gem "rails"
