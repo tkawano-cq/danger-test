@@ -17,7 +17,6 @@ jobs:
       - name: cache bundle
         uses: actions/cache@v1
         with:
-          path: vendor/bundle
           key: bundle-${{ hashFiles('**/Gemfile.lock') }}
       - name: bundle install
         run: |
@@ -27,6 +26,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          danger.import_dangerfile(github: "tkawano-cq/danger-test", branch: "master")
           bundle exec danger
 
