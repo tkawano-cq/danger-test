@@ -24,7 +24,5 @@ swiftlint.config_file = '.swiftlint.yml'
 swiftlint.lint_files inline_mode: true
 
 # Xcode warning
-github.dismiss_out_of_range_messages
-
 xcode_warnings.use_xcpretty = true
 xcode_warnings.analyze_file 'build.log'
