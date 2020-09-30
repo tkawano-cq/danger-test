@@ -1,0 +1,19 @@
+  
+# 通常有効だけど無効にするルール
+disabled_rules:
+- trailing_whitespace # Xocdeの自動生成ファイルで警告出てしまうため
+- vertical_whitespace # Xocdeの自動生成ファイルで警告出てしまうため
+- trailing_newline # Xocdeの自動生成ファイルで警告出てしまうため
+- type_name # Rswiftで引っかかるため
+- identifier_name # Rswiftで引っかかるため
+- nesting # Rswiftで引っかかるため
+
+# 通常無効だけど有効にするルール
+opt_in_rules:
+
+# SwiftLintの適用から外すディレクトリ
+excluded:
+- Carthage/
+
+# 1行あたりの文字数制限を300に変更
+line_length: 300
