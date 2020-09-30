@@ -10,10 +10,6 @@ warn("PRの説明が短すぎるよ！レビュアーが見て分かる説明を
 
 warn "PRにassigneeが設定されてないよ！🐶" unless github.pr_json["assignee"]
 
-unless github.api.organization_member?('Caraquri Inc.', github.pr_author)
-  message "@#{github.pr_author} はからくりのメンバーじゃないみたいだよ！🐶 からくりのアカウントを使ってね！"
-end
-
 pr_has_screenshot = github.pr_body =~ /https?:\/\/\S*\.(png|jpg|jpeg|gif){1}/
 warn("UIレビューの時はスクリーンショットを添付してね！🐶") if !pr_has_screenshot
 
