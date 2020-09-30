@@ -1,4 +1,3 @@
-danger.import_dangerfile(github: "tkawano-cq/danger-test", branch: "master")
 
 # Check PR
 warn("PRがWIPになってるよ！🐶") if github.pr_title.include? "[WIP]"
