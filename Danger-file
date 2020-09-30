@@ -1,0 +1,31 @@
+
+# Check PR
+warn("PRがWIPになってるよ！🐶") if github.pr_title.include? "[WIP]"
+
+warn("PRのタイトルが短すぎるよ！🐶") if github.pr_title.count < 5
+
+warn("PRにタイトルが書かれてないよ！🐶") if github.pr_title.count == 0
+
+warn("PRの説明が短すぎるよ！レビュアーが見て分かる説明を書いてね！🐶") if github.pr_body.length < 5
+
+warn "PRにassigneeが設定されてないよ！🐶" unless github.pr_json["assignee"]
+
+unless github.api.organization_member?('Caraquri Inc.', github.pr_author)
+  message "@#{github.pr_author} はからくりのメンバーじゃないみたいだよ！🐶 からくりのアカウントを使ってね！"
+end
+
+# 研修ではPRが大きくなるのはしょうがないので使いません。
+# warn("PRが大きすぎるよ！できればいくつかに分解してね！") if git.lines_of_code > 500
+
+# 修正範囲外をチェック対象から外します。
+github.dismiss_out_of_range_messages
+
+# Swiftlint
+swiftlint.config_file = '.swiftlint.yml'
+swiftlint.lint_files inline_mode: true
+
+# Xcode warning
+github.dismiss_out_of_range_messages
+
+xcode_warnings.use_xcpretty = true
+xcode_warnings.analyze_file 'build.log'
