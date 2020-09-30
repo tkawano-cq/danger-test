@@ -28,7 +28,7 @@ xcode_summary.inline_mode = true
 xcode_summary.report 'xcodebuild.json'
 
 # Xcode's code coverage
-report = report(
+report = xcov.produce_report(
    scheme: 'DangerTest',
    workspace: 'DangerTest.xcodeproj',
    minimum_coverage_percentage: 0
