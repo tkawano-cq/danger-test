@@ -30,7 +30,7 @@ xcode_summary.report 'xcodebuild.json'
 # Xcode's code coverage
 xcov.report(
    scheme: 'DangerTest',
-   workspace: 'DangerTest/DangerTest.xcodeproj',
+   workspace: '.DangerTest.xcodeproj',
    exclude_targets: '',
    minimum_coverage_percentage: 0
 )
