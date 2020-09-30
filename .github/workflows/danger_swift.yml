@@ -20,6 +20,9 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
+      - name: setup brew
+        run: |
+          brew install swiftlint
       - name: setup bundle
         run: |
           gem install bundler
