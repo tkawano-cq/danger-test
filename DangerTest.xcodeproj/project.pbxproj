@@ -15,6 +15,47 @@
 		9E916EED25242721003A0CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E916EEB25242721003A0CCE /* LaunchScreen.storyboard */; };
 		9E916EF825242721003A0CCE /* DangerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916EF725242721003A0CCE /* DangerTestTests.swift */; };
 		9E916F0325242721003A0CCE /* DangerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F0225242721003A0CCE /* DangerTestUITests.swift */; };
+		9E916F8825246401003A0CCE /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3425246400003A0CCE /* UIImageViewExtension.swift */; };
+		9E916F8925246401003A0CCE /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3525246400003A0CCE /* UITextFieldExtension.swift */; };
+		9E916F8A25246401003A0CCE /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3725246400003A0CCE /* UIApplicationExtension.swift */; };
+		9E916F8B25246401003A0CCE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3825246400003A0CCE /* UIViewControllerExtension.swift */; };
+		9E916F8C25246401003A0CCE /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3925246400003A0CCE /* UITableViewExtension.swift */; };
+		9E916F8D25246401003A0CCE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3A25246400003A0CCE /* UIViewExtension.swift */; };
+		9E916F8E25246401003A0CCE /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3B25246400003A0CCE /* UIImageExtension.swift */; };
+		9E916F8F25246401003A0CCE /* NotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3E25246400003A0CCE /* NotificationCenterExtension.swift */; };
+		9E916F9025246401003A0CCE /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F3F25246400003A0CCE /* NotificationNameExtension.swift */; };
+		9E916F9125246401003A0CCE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F4025246400003A0CCE /* StringExtension.swift */; };
+		9E916F9225246401003A0CCE /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F4125246400003A0CCE /* DateExtension.swift */; };
+		9E916F9725246401003A0CCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E916F4925246400003A0CCE /* Localizable.strings */; };
+		9E916F9825246401003A0CCE /* IdentifierEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F4B25246400003A0CCE /* IdentifierEnumeration.swift */; };
+		9E916F9925246401003A0CCE /* NukeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F4C25246400003A0CCE /* NukeManager.swift */; };
+		9E916F9A25246401003A0CCE /* Reaponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F4E25246401003A0CCE /* Reaponse.swift */; };
+		9E916F9B25246401003A0CCE /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F4F25246401003A0CCE /* KeychainManager.swift */; };
+		9E916F9C25246401003A0CCE /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F5025246401003A0CCE /* Request.swift */; };
+		9E916F9D25246401003A0CCE /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F5125246401003A0CCE /* Book.swift */; };
+		9E916FA025246401003A0CCE /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F5625246401003A0CCE /* APIClientProtocol.swift */; };
+		9E916FA125246401003A0CCE /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F5725246401003A0CCE /* ViewModelProtocol.swift */; };
+		9E916FA225246401003A0CCE /* ClassNameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F5825246401003A0CCE /* ClassNameProtocol.swift */; };
+		9E916FA325246401003A0CCE /* ValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F5925246401003A0CCE /* ValidatorProtocol.swift */; };
+		9E916FA425246401003A0CCE /* HasTextFieldViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F5A25246401003A0CCE /* HasTextFieldViewControllerProtocol.swift */; };
+		9E916FA525246401003A0CCE /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E916F5D25246401003A0CCE /* Settings.storyboard */; };
+		9E916FA625246401003A0CCE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F5E25246401003A0CCE /* SettingsViewController.swift */; };
+		9E916FA725246401003A0CCE /* BookAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F6025246401003A0CCE /* BookAddViewController.swift */; };
+		9E916FA825246401003A0CCE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F6225246401003A0CCE /* SignUpViewController.swift */; };
+		9E916FA925246401003A0CCE /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E916F6325246401003A0CCE /* SignUp.storyboard */; };
+		9E916FAA25246401003A0CCE /* BookEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E916F6525246401003A0CCE /* BookEdit.storyboard */; };
+		9E916FAB25246401003A0CCE /* BookEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F6625246401003A0CCE /* BookEditViewController.swift */; };
+		9E916FAC25246401003A0CCE /* BookRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F6825246401003A0CCE /* BookRowTableViewCell.swift */; };
+		9E916FAD25246401003A0CCE /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F6925246401003A0CCE /* BookListViewController.swift */; };
+		9E916FAE25246401003A0CCE /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E916F6B25246401003A0CCE /* Login.storyboard */; };
+		9E916FAF25246401003A0CCE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F6C25246401003A0CCE /* LoginViewController.swift */; };
+		9E916FB025246401003A0CCE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F6E25246401003A0CCE /* MainTabBarController.swift */; };
+		9E916FB125246401003A0CCE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F7025246401003A0CCE /* LoginViewModel.swift */; };
+		9E916FB225246401003A0CCE /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F7125246401003A0CCE /* SignUpViewModel.swift */; };
+		9E916FB325246401003A0CCE /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F7225246401003A0CCE /* SettingsViewModel.swift */; };
+		9E916FB425246401003A0CCE /* BookAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F7325246401003A0CCE /* BookAddViewModel.swift */; };
+		9E916FB525246401003A0CCE /* BookEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F7425246401003A0CCE /* BookEditViewModel.swift */; };
+		9E916FB625246401003A0CCE /* BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E916F7525246401003A0CCE /* BookListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +90,47 @@
 		9E916EFE25242721003A0CCE /* DangerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DangerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E916F0225242721003A0CCE /* DangerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerTestUITests.swift; sourceTree = "<group>"; };
 		9E916F0425242721003A0CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E916F3425246400003A0CCE /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		9E916F3525246400003A0CCE /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		9E916F3725246400003A0CCE /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		9E916F3825246400003A0CCE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		9E916F3925246400003A0CCE /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		9E916F3A25246400003A0CCE /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		9E916F3B25246400003A0CCE /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		9E916F3E25246400003A0CCE /* NotificationCenterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtension.swift; sourceTree = "<group>"; };
+		9E916F3F25246400003A0CCE /* NotificationNameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		9E916F4025246400003A0CCE /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9E916F4125246400003A0CCE /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		9E916F4A25246400003A0CCE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9E916F4B25246400003A0CCE /* IdentifierEnumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifierEnumeration.swift; sourceTree = "<group>"; };
+		9E916F4C25246400003A0CCE /* NukeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NukeManager.swift; sourceTree = "<group>"; };
+		9E916F4E25246401003A0CCE /* Reaponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reaponse.swift; sourceTree = "<group>"; };
+		9E916F4F25246401003A0CCE /* KeychainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		9E916F5025246401003A0CCE /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		9E916F5125246401003A0CCE /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		9E916F5625246401003A0CCE /* APIClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
+		9E916F5725246401003A0CCE /* ViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		9E916F5825246401003A0CCE /* ClassNameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNameProtocol.swift; sourceTree = "<group>"; };
+		9E916F5925246401003A0CCE /* ValidatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorProtocol.swift; sourceTree = "<group>"; };
+		9E916F5A25246401003A0CCE /* HasTextFieldViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasTextFieldViewControllerProtocol.swift; sourceTree = "<group>"; };
+		9E916F5D25246401003A0CCE /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		9E916F5E25246401003A0CCE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9E916F6025246401003A0CCE /* BookAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAddViewController.swift; sourceTree = "<group>"; };
+		9E916F6225246401003A0CCE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9E916F6325246401003A0CCE /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		9E916F6525246401003A0CCE /* BookEdit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BookEdit.storyboard; sourceTree = "<group>"; };
+		9E916F6625246401003A0CCE /* BookEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookEditViewController.swift; sourceTree = "<group>"; };
+		9E916F6825246401003A0CCE /* BookRowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookRowTableViewCell.swift; sourceTree = "<group>"; };
+		9E916F6925246401003A0CCE /* BookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		9E916F6B25246401003A0CCE /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9E916F6C25246401003A0CCE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9E916F6E25246401003A0CCE /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9E916F7025246401003A0CCE /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9E916F7125246401003A0CCE /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		9E916F7225246401003A0CCE /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		9E916F7325246401003A0CCE /* BookAddViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAddViewModel.swift; sourceTree = "<group>"; };
+		9E916F7425246401003A0CCE /* BookEditViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookEditViewModel.swift; sourceTree = "<group>"; };
+		9E916F7525246401003A0CCE /* BookListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +181,12 @@
 		9E916EDF25242720003A0CCE /* DangerTest */ = {
 			isa = PBXGroup;
 			children = (
+				9E916F3225246400003A0CCE /* Extension */,
+				9E916F4D25246401003A0CCE /* Model */,
+				9E916F5525246401003A0CCE /* Protocol */,
+				9E916F4825246400003A0CCE /* Utils */,
+				9E916F5B25246401003A0CCE /* View */,
+				9E916F6F25246401003A0CCE /* ViewModel */,
 				9E916EE025242720003A0CCE /* AppDelegate.swift */,
 				9E916EE225242720003A0CCE /* SceneDelegate.swift */,
 				9E916EE425242720003A0CCE /* ViewController.swift */,
@@ -126,6 +214,177 @@
 				9E916F0425242721003A0CCE /* Info.plist */,
 			);
 			path = DangerTestUITests;
+			sourceTree = "<group>";
+		};
+		9E916F3225246400003A0CCE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F3325246400003A0CCE /* Combine */,
+				9E916F3625246400003A0CCE /* UIKit */,
+				9E916F3C25246400003A0CCE /* Foundation */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9E916F3325246400003A0CCE /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F3425246400003A0CCE /* UIImageViewExtension.swift */,
+				9E916F3525246400003A0CCE /* UITextFieldExtension.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		9E916F3625246400003A0CCE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F3725246400003A0CCE /* UIApplicationExtension.swift */,
+				9E916F3825246400003A0CCE /* UIViewControllerExtension.swift */,
+				9E916F3925246400003A0CCE /* UITableViewExtension.swift */,
+				9E916F3A25246400003A0CCE /* UIViewExtension.swift */,
+				9E916F3B25246400003A0CCE /* UIImageExtension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		9E916F3C25246400003A0CCE /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F3D25246400003A0CCE /* Notification */,
+				9E916F4025246400003A0CCE /* StringExtension.swift */,
+				9E916F4125246400003A0CCE /* DateExtension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		9E916F3D25246400003A0CCE /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F3E25246400003A0CCE /* NotificationCenterExtension.swift */,
+				9E916F3F25246400003A0CCE /* NotificationNameExtension.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		9E916F4825246400003A0CCE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F4925246400003A0CCE /* Localizable.strings */,
+				9E916F4B25246400003A0CCE /* IdentifierEnumeration.swift */,
+				9E916F4C25246400003A0CCE /* NukeManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9E916F4D25246401003A0CCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F4E25246401003A0CCE /* Reaponse.swift */,
+				9E916F4F25246401003A0CCE /* KeychainManager.swift */,
+				9E916F5025246401003A0CCE /* Request.swift */,
+				9E916F5125246401003A0CCE /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E916F5525246401003A0CCE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F5625246401003A0CCE /* APIClientProtocol.swift */,
+				9E916F5725246401003A0CCE /* ViewModelProtocol.swift */,
+				9E916F5825246401003A0CCE /* ClassNameProtocol.swift */,
+				9E916F5925246401003A0CCE /* ValidatorProtocol.swift */,
+				9E916F5A25246401003A0CCE /* HasTextFieldViewControllerProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		9E916F5B25246401003A0CCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F5C25246401003A0CCE /* Settings */,
+				9E916F5F25246401003A0CCE /* BookAdd */,
+				9E916F6125246401003A0CCE /* SignUp */,
+				9E916F6425246401003A0CCE /* BookEdit */,
+				9E916F6725246401003A0CCE /* BookList */,
+				9E916F6A25246401003A0CCE /* Login */,
+				9E916F6D25246401003A0CCE /* TabBarController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E916F5C25246401003A0CCE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F5D25246401003A0CCE /* Settings.storyboard */,
+				9E916F5E25246401003A0CCE /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9E916F5F25246401003A0CCE /* BookAdd */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F6025246401003A0CCE /* BookAddViewController.swift */,
+			);
+			path = BookAdd;
+			sourceTree = "<group>";
+		};
+		9E916F6125246401003A0CCE /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F6225246401003A0CCE /* SignUpViewController.swift */,
+				9E916F6325246401003A0CCE /* SignUp.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		9E916F6425246401003A0CCE /* BookEdit */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F6525246401003A0CCE /* BookEdit.storyboard */,
+				9E916F6625246401003A0CCE /* BookEditViewController.swift */,
+			);
+			path = BookEdit;
+			sourceTree = "<group>";
+		};
+		9E916F6725246401003A0CCE /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F6825246401003A0CCE /* BookRowTableViewCell.swift */,
+				9E916F6925246401003A0CCE /* BookListViewController.swift */,
+			);
+			path = BookList;
+			sourceTree = "<group>";
+		};
+		9E916F6A25246401003A0CCE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F6B25246401003A0CCE /* Login.storyboard */,
+				9E916F6C25246401003A0CCE /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9E916F6D25246401003A0CCE /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F6E25246401003A0CCE /* MainTabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		9E916F6F25246401003A0CCE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E916F7025246401003A0CCE /* LoginViewModel.swift */,
+				9E916F7125246401003A0CCE /* SignUpViewModel.swift */,
+				9E916F7225246401003A0CCE /* SettingsViewModel.swift */,
+				9E916F7325246401003A0CCE /* BookAddViewModel.swift */,
+				9E916F7425246401003A0CCE /* BookEditViewModel.swift */,
+				9E916F7525246401003A0CCE /* BookListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +472,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 9E916ED425242720003A0CCE;
 			productRefGroup = 9E916EDE25242720003A0CCE /* Products */;
@@ -233,7 +493,12 @@
 			files = (
 				9E916EED25242721003A0CCE /* LaunchScreen.storyboard in Resources */,
 				9E916EEA25242721003A0CCE /* Assets.xcassets in Resources */,
+				9E916FA925246401003A0CCE /* SignUp.storyboard in Resources */,
+				9E916FAA25246401003A0CCE /* BookEdit.storyboard in Resources */,
 				9E916EE825242720003A0CCE /* Main.storyboard in Resources */,
+				9E916FA525246401003A0CCE /* Settings.storyboard in Resources */,
+				9E916F9725246401003A0CCE /* Localizable.strings in Resources */,
+				9E916FAE25246401003A0CCE /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +523,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E916F8925246401003A0CCE /* UITextFieldExtension.swift in Sources */,
+				9E916F8E25246401003A0CCE /* UIImageExtension.swift in Sources */,
+				9E916FA225246401003A0CCE /* ClassNameProtocol.swift in Sources */,
+				9E916F8D25246401003A0CCE /* UIViewExtension.swift in Sources */,
+				9E916F9025246401003A0CCE /* NotificationNameExtension.swift in Sources */,
+				9E916FA825246401003A0CCE /* SignUpViewController.swift in Sources */,
+				9E916FB225246401003A0CCE /* SignUpViewModel.swift in Sources */,
+				9E916FB425246401003A0CCE /* BookAddViewModel.swift in Sources */,
+				9E916FB125246401003A0CCE /* LoginViewModel.swift in Sources */,
 				9E916EE525242720003A0CCE /* ViewController.swift in Sources */,
+				9E916FA425246401003A0CCE /* HasTextFieldViewControllerProtocol.swift in Sources */,
+				9E916FB625246401003A0CCE /* BookListViewModel.swift in Sources */,
+				9E916F8C25246401003A0CCE /* UITableViewExtension.swift in Sources */,
+				9E916FA025246401003A0CCE /* APIClientProtocol.swift in Sources */,
+				9E916FAB25246401003A0CCE /* BookEditViewController.swift in Sources */,
+				9E916FA125246401003A0CCE /* ViewModelProtocol.swift in Sources */,
 				9E916EE125242720003A0CCE /* AppDelegate.swift in Sources */,
+				9E916F8B25246401003A0CCE /* UIViewControllerExtension.swift in Sources */,
+				9E916FB525246401003A0CCE /* BookEditViewModel.swift in Sources */,
+				9E916F8825246401003A0CCE /* UIImageViewExtension.swift in Sources */,
+				9E916F8F25246401003A0CCE /* NotificationCenterExtension.swift in Sources */,
+				9E916F9B25246401003A0CCE /* KeychainManager.swift in Sources */,
+				9E916F8A25246401003A0CCE /* UIApplicationExtension.swift in Sources */,
+				9E916F9225246401003A0CCE /* DateExtension.swift in Sources */,
+				9E916FA725246401003A0CCE /* BookAddViewController.swift in Sources */,
 				9E916EE325242720003A0CCE /* SceneDelegate.swift in Sources */,
+				9E916F9925246401003A0CCE /* NukeManager.swift in Sources */,
+				9E916F9125246401003A0CCE /* StringExtension.swift in Sources */,
+				9E916FAF25246401003A0CCE /* LoginViewController.swift in Sources */,
+				9E916FA625246401003A0CCE /* SettingsViewController.swift in Sources */,
+				9E916F9A25246401003A0CCE /* Reaponse.swift in Sources */,
+				9E916F9D25246401003A0CCE /* Book.swift in Sources */,
+				9E916FAC25246401003A0CCE /* BookRowTableViewCell.swift in Sources */,
+				9E916FA325246401003A0CCE /* ValidatorProtocol.swift in Sources */,
+				9E916F9C25246401003A0CCE /* Request.swift in Sources */,
+				9E916F9825246401003A0CCE /* IdentifierEnumeration.swift in Sources */,
+				9E916FAD25246401003A0CCE /* BookListViewController.swift in Sources */,
+				9E916FB025246401003A0CCE /* MainTabBarController.swift in Sources */,
+				9E916FB325246401003A0CCE /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +611,14 @@
 				9E916EEC25242721003A0CCE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9E916F4925246400003A0CCE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E916F4A25246400003A0CCE /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
