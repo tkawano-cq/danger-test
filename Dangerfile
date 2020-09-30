@@ -1,4 +1,3 @@
-
 # Check PR
 warn("PRがWIPになってるよ！🐶") if github.pr_title.include? "[WIP]"
 
@@ -12,9 +11,6 @@ warn "PRにassigneeが設定されてないよ！🐶" unless github.pr_json["as
 
 pr_has_screenshot = github.pr_body =~ /https?:\/\/\S*\.(png|jpg|jpeg|gif){1}/
 warn("UIレビューの時はスクリーンショットを添付してね！🐶") if !pr_has_screenshot
-
-# 研修ではPRが大きくなるのはしょうがないので使いません。
-# warn("PRが大きすぎるよ！できればいくつかに分解してね！") if git.lines_of_code > 500
 
 # 修正範囲外をチェック対象から外します。
 github.dismiss_out_of_range_messages
