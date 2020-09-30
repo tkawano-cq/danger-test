@@ -28,12 +28,12 @@ xcode_summary.inline_mode = true
 xcode_summary.report 'xcodebuild.json'
 
 # Xcode's code coverage
-xcov.report(
-   scheme: 'EasyPeasy',
-   workspace: 'Example/EasyPeasy.xcworkspace',
-   exclude_targets: 'Demo.app',
-   minimum_coverage_percentage: 90
+report = report(
+   scheme: 'DangerTest',
+   workspace: 'DangerTest.xcodeproj',
+   minimum_coverage_percentage: 0
 )
+xcov.output_report(report)
 
 # Swift compilation time
 xcprofiler.report 'MyApp'
