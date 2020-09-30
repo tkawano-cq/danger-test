@@ -5,15 +5,10 @@ on: [pull_request]
 jobs:
   danger:
     name: Danger
-    runs-on: ubuntu-latest
-
+    runs-on: macOS-latest
+    
     steps:
       - uses: actions/checkout@master
-      - name: Setup Ruby
-        uses: actions/setup-ruby@v1
-        with:
-          path: vendor/bundle
-          ruby-version: '2.x'
       - name: cache bundle
         uses: actions/cache@v1
         with:
